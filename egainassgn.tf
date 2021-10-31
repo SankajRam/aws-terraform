@@ -15,7 +15,7 @@ provider "aws" {
 
 
 # Create a VPC
-resource "aws_vpc" "vpc" {
+resource "aws_vpc" "Egain-VPC" {
   cidr_block = "192.168.0.0/22"
   tags = { "Name" = "vpc" }
 }
